@@ -2864,9 +2864,6 @@ Industries Serve Area Style
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  border-radius: 60px 0 0 60px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
   overflow: hidden;
   z-index: 1;
   margin-bottom: 15px;
@@ -2874,18 +2871,16 @@ Industries Serve Area Style
   padding-left: 80px;
   padding-right: 30px;
   padding-bottom: 23px;;
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 .single-industries.right-item {
-  border-radius: 0 60px 60px 0;
 }
 
-.single-industries.right-item::before {
-  border-radius: 0 60px 60px 0;
-}
 
-.single-industries.right-item:hover::before {
-  border-radius: 0 60px 60px 0;
-}
+
 
 .single-industries::before {
   content: "";
@@ -2894,11 +2889,8 @@ Industries Serve Area Style
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #1dd3f8;
   z-index: -1;
   border-radius: 60px 0 0 60px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 .single-industries i {
@@ -2906,10 +2898,7 @@ Industries Serve Area Style
   left: 30px;
   top: 16px;
   font-size: 30px;
-  color: #1dd3f8;
   line-height: 1;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 .single-industries .right-icon {
@@ -2924,8 +2913,6 @@ Industries Serve Area Style
 }
 
 .single-industries h3 {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
@@ -2935,33 +2922,9 @@ Industries Serve Area Style
   margin-bottom: -3px;
   display: block;
   font-weight: 600;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
   color: #4d4d4d;
 }
 
-.single-industries:hover i {
-  color: #ffffff;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.single-industries:hover h3 {
-  color: #ffffff;
-}
-
-.single-industries:hover span {
-  color: #ffffff;
-}
-
-.single-industries:hover a {
-  right: 20px;
-}
-
-.single-industries:hover::before {
-  width: 100%;
-  border-radius: 60px 0 0 60px;
-}
 
 /*
 Brand Area Serve Area Style
@@ -6983,11 +6946,10 @@ Service Details Area Style
     padding-bottom: 110px;
     position: relative;
     z-index: 1;
-    background: rgba(169, 52, 212, 0.95);
-    background: -webkit-linear-gradient(to right, rgb(169, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: -webkit-linear-gradient(left, rgb(169, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: linear-gradient(to right, rgba(169, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .cols_banner{
   border: 2px dotted #ccc;
@@ -7065,19 +7027,29 @@ Service Details Area Style
   padding-top: 4px;
 }
 .stat2 {
-  background-image: linear-gradient(to right, #e84e9c, #ea6f77);
-}
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 .stat3 {
-  background-image: linear-gradient(to right, #6de098, #5ab9b2);
-}
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 .stat4 {
-  background-image: linear-gradient(to right, #f5d241, #ec8b52);
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 .stat5 {
   background-image: linear-gradient(to right, #df6e9d, #ca57e7);
 }
 .stat6 {
-  background-image: linear-gradient(to right, #dfa26e, #e75757);
+  background: #41295a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 .thumb_img {
   width: 84px;
@@ -7366,18 +7338,18 @@ strike{
   border-radius: 5px;
   box-shadow: 1px 1px 10px #ccc;
 }
-.sub_header{
-  min-height: 160px;
+.sub_header {
+  min-height: 10px;
   padding: 24px 0px;
   text-transform: uppercase;
   text-align: center;
-  border-bottom-left-radius: 70px;
-  border-bottom-right-radius: 70px;
 }
+
 .sub_header>i{
   padding: 25px 25px;
   min-height: 210px;
 }
+
 .sub_header>h3{
   color: #fff;
   font-size: 25px;
@@ -7428,13 +7400,20 @@ strike{
   padding: 30px 0px;
 }
 .sub_header1{
-  background-image: linear-gradient(to right, #6edfda, #5784e7);
+  background: #005C97;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 .sub_header2{
-  background-image: linear-gradient(to right, #e84e9c, #ea6f77);
-}
+  background: #52c234;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 .sub_header3{
-  background-image: linear-gradient(to right, #6de098, #5ab9b2);
+background: #C04848;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .sub_btn1{
   background-image: linear-gradient(to right, #6edfda, #5784e7);
@@ -7472,12 +7451,16 @@ strike{
   font-size: 15px;
   font-weight: 400;
 }
+
 .sub_tag_div>p>b{
 
 }
 
-
-
+.btn-success {
+  background: #e53935;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 
 
