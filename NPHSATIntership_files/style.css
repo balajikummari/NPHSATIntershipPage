@@ -6937,6 +6937,7 @@ Service Details Area Style
 }
 .compnay_logo{
   width: 170px;
+  border-radius: 5px;
 }
 .hilights{
   color: #f8f517 !important;
