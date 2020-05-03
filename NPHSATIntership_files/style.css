@@ -7464,7 +7464,12 @@ background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, F
 
 
 
-
+#collab{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  justify-items: center;
+}
 
 
 
