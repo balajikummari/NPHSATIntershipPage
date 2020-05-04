@@ -7195,8 +7195,13 @@ strike{
   opacity: 1;
   z-index: 999;
 }
-.whats_logo{
-  width: 10%
+.whats_logo_know {
+  width: 20%  !important;
+   background-color : transparent !important; 
+   padding: 0px !important;
+   margin-right: 0px !important; 
+   margin-left: 0px !important; 
+  border-radius: 2px !important;
 }
 #whatsapp>span{
   color: #ffffff;
