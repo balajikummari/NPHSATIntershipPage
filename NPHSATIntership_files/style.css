@@ -7420,6 +7420,12 @@ background: #C04848;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.sub_header4{
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(190,186,23,1) 85%, rgba(252,176,69,1) 100%); 
+}
+
 .sub_btn1{
   background-image: linear-gradient(to right, #6edfda, #5784e7);
 }
